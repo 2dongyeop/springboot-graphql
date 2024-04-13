@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 /**
  * @author 이동엽(Lee Dongyeop)
@@ -28,6 +29,7 @@ public class User {
     private String phoneNumber;
 
     @JsonIgnore
+    @ToString.Exclude
     @Column(name = "password")
     private String password;
 

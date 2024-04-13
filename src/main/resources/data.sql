@@ -3,14 +3,14 @@ VALUES ('이동엽', '01012341234', '12341234'),
        ('손준호', '01023452345', '23452345'),
        ('손다은', '01034563456', '34563456');
 
-INSERT INTO post(title, content, user_id)
-VALUES ('title1', 'content1', 1),
-       ('title2', 'content2', 2),
-       ('title3', 'content3', 3),
-       ('title4', 'content4', 1),
-       ('title5', 'content5', 2),
-       ('title6', 'content6', 3),
-       ('title7', 'content7', 2);
+INSERT INTO post(title, content, user_id, views)
+VALUES ('title1', 'content1', 1, 0),
+       ('title2', 'content2', 2, 0),
+       ('title3', 'content3', 3, 0),
+       ('title4', 'content4', 1, 0),
+       ('title5', 'content5', 2, 0),
+       ('title6', 'content6', 3, 0),
+       ('title7', 'content7', 2, 0);
 
 INSERT INTO comment(content, post_id, user_id)
 VALUES ('comment1', 1, 1),

@@ -1,0 +1,42 @@
+type Query {
+  viewAllPost: [Post]
+  getCommentsByPostId(postId: ID): [Comment]
+}
+
+type Mutation {
+  viewPost(postId: ID): Post
+  savePost(request: RequestPost!): Post
+  saveComment(postId: ID, request: RequestComment!): Comment
+}
+
+type Comment {
+  id: ID
+  content: String
+  writer: User
+  post: Post
+}
+
+type Post {
+  id: ID
+  title: String
+  content: String
+  views: String
+  author: User
+  comments: [Comment]
+}
+
+type User {
+  id: ID
+  name: String
+  phoneNumber: String
+  password: String
+}
+
+input RequestPost {
+  title: String!
+  content: String!
+}
+
+input RequestComment {
+  content: String
+}

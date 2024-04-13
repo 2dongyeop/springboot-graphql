@@ -28,6 +28,19 @@ spring:
       path: /h2-console
       enabled: true
 
+  graphql:
+    graphiql:
+      enabled: true # localhost:8888/graphiql
+    schema:
+      printer:
+        enabled: true # like JPA show-sql
+
 server:
   port: 8888
 
+cors:
+  allowed:
+    mapping: "/**"
+    origins: "*" # Client Server URL
+    headers: "*"
+    methods: POST, GET, PATCH, DELETE, OPTIONS, PUT

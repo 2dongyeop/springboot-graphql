@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 /**
  * @author 이동엽(Lee Dongyeop)
@@ -12,6 +13,7 @@ import lombok.NoArgsConstructor;
  */
 @Getter
 @Entity
+@ToString
 @Table(name = "comment")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Comment {
@@ -25,15 +27,21 @@ public class Comment {
 
     @JoinColumn(name = "user_id")
     @ManyToOne(fetch = FetchType.LAZY)
-    private User user;
+    private User writer;
 
+    @ToString.Exclude
     @JoinColumn(name = "post_id")
     @ManyToOne(fetch = FetchType.LAZY)
     private Post post;
 
-    public Comment(final String content, final User user, final Post post) {
+    public Comment(final String content, final User writer, final Post post) {
         this.content = content;
-        this.user = user;
+        this.writer = writer;
+        setPost(post);
+    }
+
+    private void setPost(final Post post) {
         this.post = post;
+        post.getComments().add(this);
     }
 }
