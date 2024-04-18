@@ -16,7 +16,6 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 @AutoConfigureWebTestClient
 class PostEndpointTest {
 
-
     @Autowired
     private WebTestClient webTestClient;
 
