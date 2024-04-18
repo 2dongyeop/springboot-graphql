@@ -30,7 +30,8 @@ spring:
 
   graphql:
     graphiql:
-      enabled: true # localhost:8888/graphiql
+      enabled: true # default : false
+      path: /graphiql # default : graphiql
     schema:
       printer:
         enabled: true # like JPA show-sql
