@@ -1,5 +1,6 @@
 package io.dongvelop.springbootgraphql.service;
 
+import io.dongvelop.springbootgraphql.exception.CustomException;
 import io.dongvelop.springbootgraphql.model.Post;
 import io.dongvelop.springbootgraphql.model.User;
 import io.dongvelop.springbootgraphql.payload.request.RequestPost;
@@ -7,6 +8,7 @@ import io.dongvelop.springbootgraphql.repository.PostRepository;
 import io.dongvelop.springbootgraphql.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -33,6 +35,11 @@ public class PostService {
     @Transactional
     public Post viewPost(final Long postId) {
         log.info("postId[{}]", postId);
+
+        if (postId <= 0) {
+            throw new CustomException("게시글 번호는 0 이하일 수 없습니다.", HttpStatus.BAD_REQUEST);
+        }
+
         final Post post = postRepository.findById(postId).orElseGet(() -> {
             log.info("postId[{}] not found", postRepository);
             return null;
