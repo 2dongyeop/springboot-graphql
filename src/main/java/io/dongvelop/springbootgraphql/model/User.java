@@ -14,6 +14,7 @@ import lombok.ToString;
  */
 @Getter
 @Entity
+@ToString
 @Table(name = "users")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class User {

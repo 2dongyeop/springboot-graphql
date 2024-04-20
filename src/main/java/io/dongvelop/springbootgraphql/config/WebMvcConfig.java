@@ -1,9 +1,6 @@
 package io.dongvelop.springbootgraphql.config;
 
-import io.dongvelop.springbootgraphql.common.HeaderExtractFilter;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -27,11 +24,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Value("${cors.allowed.methods}")
     private String[] corsMethods;
-
-    @Bean
-    public FilterRegistrationBean<HeaderExtractFilter> logFilter() {
-        return new FilterRegistrationBean<>(new HeaderExtractFilter());
-    }
 
     @Override
     public void addCorsMappings(final CorsRegistry registry) {

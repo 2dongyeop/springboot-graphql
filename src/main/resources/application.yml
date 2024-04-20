@@ -54,6 +54,7 @@ logging:
     name: ./logs/graphql.log
 
   level:
+    io.dongvelop.springbootgraphql.common: debug
     org.hibernate:
       SQL: debug
       orm:
