@@ -24,8 +24,18 @@ class PostEndpointTest {
 
         // given
         final String requestUrl = "/graphql";
-        final String methodName = "viewAllPost";
-        final String query = "{\"query\":\"{" + methodName + "{ id title content } }\"}";
+
+        final String query = """
+                query {
+                  viewAllPost {
+                    id
+                    title
+                    comments {
+                      content
+                    }
+                  }
+                }
+                """;
 
         // expected
         webTestClient.post()
