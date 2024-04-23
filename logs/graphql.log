@@ -1,29 +1,29 @@
-[2024-04-20 18:01:20:247][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 23457 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
-[2024-04-20 18:01:20:255][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
-[2024-04-20 18:01:21:673][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2024-04-20 18:01:21:748][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
-[2024-04-20 18:01:21:1080][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
-[2024-04-20 18:01:21:1086][INFO ][main][StandardService.log] - Starting service [Tomcat]
-[2024-04-20 18:01:21:1086][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
-[2024-04-20 18:01:21:1109][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
-[2024-04-20 18:01:21:1109][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 831 ms
-[2024-04-20 18:01:21:1173][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
-[2024-04-20 18:01:21:1270][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-[2024-04-20 18:01:21:1271][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
-[2024-04-20 18:01:21:1276][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-[2024-04-20 18:01:21:1379][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[2024-04-20 18:01:21:1420][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
-[2024-04-20 18:01:21:1433][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
-[2024-04-20 18:01:22:1534][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[2024-04-20 18:01:22:1552][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[2024-04-20 18:01:22:1957][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[2024-04-20 18:01:22:1964][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:36:251][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 55457 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
+[2024-04-23 21:23:36:258][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
+[2024-04-23 21:23:36:699][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-23 21:23:36:779][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+[2024-04-23 21:23:37:1151][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
+[2024-04-23 21:23:37:1157][INFO ][main][StandardService.log] - Starting service [Tomcat]
+[2024-04-23 21:23:37:1158][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-23 21:23:37:1179][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
+[2024-04-23 21:23:37:1180][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 902 ms
+[2024-04-23 21:23:37:1239][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
+[2024-04-23 21:23:37:1331][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2024-04-23 21:23:37:1332][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
+[2024-04-23 21:23:37:1337][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2024-04-23 21:23:37:1426][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-23 21:23:37:1453][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-23 21:23:37:1468][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
+[2024-04-23 21:23:37:1584][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-23 21:23:37:1604][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-23 21:23:38:2055][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-23 21:23:38:2062][DEBUG][main][SQL.logStatement] - 
     drop table if exists comment cascade 
-[2024-04-20 18:01:22:1966][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2064][DEBUG][main][SQL.logStatement] - 
     drop table if exists post cascade 
-[2024-04-20 18:01:22:1966][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2064][DEBUG][main][SQL.logStatement] - 
     drop table if exists users cascade 
-[2024-04-20 18:01:22:1968][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2067][DEBUG][main][SQL.logStatement] - 
     create table comment (
         id bigint generated by default as identity,
         post_id bigint,
@@ -31,7 +31,7 @@
         content varchar(255),
         primary key (id)
     )
-[2024-04-20 18:01:22:1972][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2071][DEBUG][main][SQL.logStatement] - 
     create table post (
         id bigint generated by default as identity,
         user_id bigint,
@@ -40,7 +40,7 @@
         title varchar(255),
         primary key (id)
     )
-[2024-04-20 18:01:22:1973][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2072][DEBUG][main][SQL.logStatement] - 
     create table users (
         id bigint generated by default as identity,
         name varchar(255),
@@ -48,238 +48,277 @@
         phone_number varchar(255),
         primary key (id)
     )
-[2024-04-20 18:01:22:1973][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2073][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKs1slvnkuemjsq2kj4h3vhx7i1 
        foreign key (post_id) 
        references post
-[2024-04-20 18:01:22:1979][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2079][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKqm52p1v3o13hy268he0wcngr5 
        foreign key (user_id) 
        references users
-[2024-04-20 18:01:22:1980][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2080][DEBUG][main][SQL.logStatement] - 
     alter table if exists post 
        add constraint FK7ky67sgi7k0ayf22652f7763r 
        foreign key (user_id) 
        references users
-[2024-04-20 18:01:22:1982][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:01:22:2216][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[2024-04-20 18:01:23:2632][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
-[2024-04-20 18:01:23:2744][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
+[2024-04-23 21:23:38:2082][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:23:38:2325][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-23 21:23:38:2614][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
+[2024-04-23 21:23:38:2702][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
 	Unmapped fields: {}
 	Unmapped registrations: {}
 	Skipped types: []
-[2024-04-20 18:01:23:2759][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
-[2024-04-20 18:01:23:3051][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
-[2024-04-20 18:01:23:3092][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
-[2024-04-20 18:01:23:3101][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 3.043 seconds (process running for 3.532)
-[2024-04-20 18:01:23:3323][INFO ][RMI TCP Connection(5)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2024-04-20 18:01:23:3323][INFO ][RMI TCP Connection(5)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
-[2024-04-20 18:01:23:3325][INFO ][RMI TCP Connection(5)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 2 ms
-[2024-04-20 18:01:27:7441][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - request[document='mutation {
-  viewPost(postId: 1) {
-    id
-  }
-}', id=f9dbf833-bf7c-3198-f11e-fc5fbee0e74d, Locale=ko_KR]
-[2024-04-20 18:01:27:7441][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - document[mutation {
-  viewPost(postId: 1) {
-    id
-  }
-}]
-[2024-04-20 18:01:27:7441][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - headers[[user-agent:"PostmanRuntime/7.36.0", accept:"*/*", cache-control:"no-cache", postman-token:"1c2355a1-a41a-4be0-8d46-6939d38e4999", host:"localhost:8888", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"63", Content-Type:"application/json;charset=UTF-8"]]
-[2024-04-20 18:01:27:7472][INFO ][http-nio-8888-exec-2][PostEndpoint.viewPost] - postId[1]
-[2024-04-20 18:01:27:7475][INFO ][http-nio-8888-exec-2][PostService.viewPost] - postId[1]
-[2024-04-20 18:01:27:7493][DEBUG][http-nio-8888-exec-2][SQL.logStatement] - 
-    select
-        p1_0.id,
-        p1_0.user_id,
-        p1_0.content,
-        p1_0.title,
-        p1_0.views 
-    from
-        post p1_0 
-    where
-        p1_0.id=?
-[2024-04-20 18:01:27:7496][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:27:7519][DEBUG][http-nio-8888-exec-2][SQL.logStatement] - 
-    select
-        u1_0.id,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone_number 
-    from
-        users u1_0 
-    where
-        u1_0.id=?
-[2024-04-20 18:01:27:7519][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:27:7524][DEBUG][http-nio-8888-exec-2][SQL.logStatement] - 
-    select
-        c1_0.post_id,
-        c1_0.id,
-        c1_0.content,
-        c1_0.user_id 
-    from
-        comment c1_0 
-    where
-        c1_0.post_id=?
-[2024-04-20 18:01:27:7524][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:28:7526][DEBUG][http-nio-8888-exec-2][SQL.logStatement] - 
-    select
-        u1_0.id,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone_number 
-    from
-        users u1_0 
-    where
-        u1_0.id=?
-[2024-04-20 18:01:28:7526][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (1:BIGINT) <- [2]
-[2024-04-20 18:01:28:7526][DEBUG][http-nio-8888-exec-2][SQL.logStatement] - 
-    select
-        u1_0.id,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone_number 
-    from
-        users u1_0 
-    where
-        u1_0.id=?
-[2024-04-20 18:01:28:7526][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (1:BIGINT) <- [3]
-[2024-04-20 18:01:27:7519][INFO ][http-nio-8888-exec-2][PostService.viewPost] - post[Post(id=1, title=title1, content=content1, views=0, author=User(id=1, name=이동엽, phoneNumber=01012341234), comments=[Comment(id=1, content=comment1, writer=User(id=1, name=이동엽, phoneNumber=01012341234)), Comment(id=2, content=comment2, writer=User(id=2, name=손준호, phoneNumber=01023452345)), Comment(id=3, content=comment2, writer=User(id=3, name=손다은, phoneNumber=01034563456))])]'s view increase
-[2024-04-20 18:01:28:7540][DEBUG][http-nio-8888-exec-2][SQL.logStatement] - 
-    update
-        post 
-    set
-        user_id=?,
-        content=?,
-        title=?,
-        views=? 
-    where
-        id=?
-[2024-04-20 18:01:28:7541][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:28:7542][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (2:VARCHAR) <- [content1]
-[2024-04-20 18:01:28:7542][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (3:VARCHAR) <- [title1]
-[2024-04-20 18:01:28:7542][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (4:BIGINT) <- [1]
-[2024-04-20 18:01:28:7542][TRACE][http-nio-8888-exec-2][bind.logBinding] - binding parameter (5:BIGINT) <- [1]
-[2024-04-20 18:01:41:20581][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - request[document='mutation {
-  viewPost(postId: 1) {
-    id
-    title
-    content
-  }
-}', id=84a966d9-438c-3f9d-844e-214b58738e64, Locale=ko_KR]
-[2024-04-20 18:01:41:20581][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - document[mutation {
-  viewPost(postId: 1) {
-    id
-    title
-    content
-  }
-}]
-[2024-04-20 18:01:41:20581][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - headers[[user-agent:"PostmanRuntime/7.36.0", accept:"*/*", cache-control:"no-cache", postman-token:"31531483-2211-4115-b549-05dfe97717cd", host:"localhost:8888", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"87", Content-Type:"application/json;charset=UTF-8"]]
-[2024-04-20 18:01:41:20584][INFO ][http-nio-8888-exec-3][PostEndpoint.viewPost] - postId[1]
-[2024-04-20 18:01:41:20586][INFO ][http-nio-8888-exec-3][PostService.viewPost] - postId[1]
-[2024-04-20 18:01:41:20587][DEBUG][http-nio-8888-exec-3][SQL.logStatement] - 
-    select
-        p1_0.id,
-        p1_0.user_id,
-        p1_0.content,
-        p1_0.title,
-        p1_0.views 
-    from
-        post p1_0 
-    where
-        p1_0.id=?
-[2024-04-20 18:01:41:20588][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:41:20589][DEBUG][http-nio-8888-exec-3][SQL.logStatement] - 
-    select
-        u1_0.id,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone_number 
-    from
-        users u1_0 
-    where
-        u1_0.id=?
-[2024-04-20 18:01:41:20589][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:41:20590][DEBUG][http-nio-8888-exec-3][SQL.logStatement] - 
-    select
-        c1_0.post_id,
-        c1_0.id,
-        c1_0.content,
-        c1_0.user_id 
-    from
-        comment c1_0 
-    where
-        c1_0.post_id=?
-[2024-04-20 18:01:41:20590][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:41:20592][DEBUG][http-nio-8888-exec-3][SQL.logStatement] - 
-    select
-        u1_0.id,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone_number 
-    from
-        users u1_0 
-    where
-        u1_0.id=?
-[2024-04-20 18:01:41:20592][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (1:BIGINT) <- [2]
-[2024-04-20 18:01:41:20593][DEBUG][http-nio-8888-exec-3][SQL.logStatement] - 
-    select
-        u1_0.id,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone_number 
-    from
-        users u1_0 
-    where
-        u1_0.id=?
-[2024-04-20 18:01:41:20594][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (1:BIGINT) <- [3]
-[2024-04-20 18:01:41:20589][INFO ][http-nio-8888-exec-3][PostService.viewPost] - post[Post(id=1, title=title1, content=content1, views=1, author=User(id=1, name=이동엽, phoneNumber=01012341234), comments=[Comment(id=1, content=comment1, writer=User(id=1, name=이동엽, phoneNumber=01012341234)), Comment(id=2, content=comment2, writer=User(id=2, name=손준호, phoneNumber=01023452345)), Comment(id=3, content=comment2, writer=User(id=3, name=손다은, phoneNumber=01034563456))])]'s view increase
-[2024-04-20 18:01:41:20596][DEBUG][http-nio-8888-exec-3][SQL.logStatement] - 
-    update
-        post 
-    set
-        user_id=?,
-        content=?,
-        title=?,
-        views=? 
-    where
-        id=?
-[2024-04-20 18:01:41:20597][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (1:BIGINT) <- [1]
-[2024-04-20 18:01:41:20597][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (2:VARCHAR) <- [content1]
-[2024-04-20 18:01:41:20597][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (3:VARCHAR) <- [title1]
-[2024-04-20 18:01:41:20598][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (4:BIGINT) <- [2]
-[2024-04-20 18:01:41:20598][TRACE][http-nio-8888-exec-3][bind.logBinding] - binding parameter (5:BIGINT) <- [1]
-[2024-04-20 18:01:48:28488][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:01:48:28490][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
-[2024-04-20 18:01:48:28492][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
-[2024-04-20 18:01:50:232][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 23513 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
-[2024-04-20 18:01:50:233][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
-[2024-04-20 18:01:50:662][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2024-04-20 18:01:51:730][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
-[2024-04-20 18:01:51:1093][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
-[2024-04-20 18:01:51:1100][INFO ][main][StandardService.log] - Starting service [Tomcat]
-[2024-04-20 18:01:51:1101][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
-[2024-04-20 18:01:51:1130][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
-[2024-04-20 18:01:51:1130][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 879 ms
-[2024-04-20 18:01:51:1205][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
-[2024-04-20 18:01:51:1303][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-[2024-04-20 18:01:51:1303][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
-[2024-04-20 18:01:51:1308][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-[2024-04-20 18:01:51:1392][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[2024-04-20 18:01:51:1415][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
-[2024-04-20 18:01:51:1429][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
-[2024-04-20 18:01:51:1527][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[2024-04-20 18:01:51:1545][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[2024-04-20 18:01:52:1943][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[2024-04-20 18:01:52:1949][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:23:38:2711][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
+[2024-04-23 21:23:39:3001][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-04-23 21:23:39:3045][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
+[2024-04-23 21:23:39:3054][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 2.995 seconds (process running for 3.494)
+[2024-04-23 21:23:39:3497][INFO ][RMI TCP Connection(2)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-23 21:23:39:3497][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
+[2024-04-23 21:23:39:3498][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 1 ms
+[2024-04-23 21:23:44:8221][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - request[document='
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ', operationName='IntrospectionQuery', id=10c819c7-cdd2-bf49-cfa2-fd8b1daf62a4, Locale=ko]
+[2024-04-23 21:23:44:8222][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - document[
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+[2024-04-23 21:23:44:8222][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - headers[[host:"localhost:8888", connection:"keep-alive", content-length:"2037", sec-ch-ua:""Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"", sec-ch-ua-platform:""macOS"", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36", accept:"*/*", origin:"http://localhost:8888", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8888/graphiql?path=/graphql", accept-encoding:"gzip, deflate, br, zstd", accept-language:"ko,en;q=0.9,ko-KR;q=0.8,en-US;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+[2024-04-23 21:24:55:79324][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:24:55:79327][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
+[2024-04-23 21:24:55:79331][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
+[2024-04-23 21:24:57:237][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 55854 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
+[2024-04-23 21:24:57:238][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
+[2024-04-23 21:24:58:656][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-23 21:24:58:721][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+[2024-04-23 21:24:58:1096][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
+[2024-04-23 21:24:58:1101][INFO ][main][StandardService.log] - Starting service [Tomcat]
+[2024-04-23 21:24:58:1102][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-23 21:24:58:1124][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
+[2024-04-23 21:24:58:1124][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 861 ms
+[2024-04-23 21:24:58:1185][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
+[2024-04-23 21:24:58:1276][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2024-04-23 21:24:58:1277][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
+[2024-04-23 21:24:58:1282][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2024-04-23 21:24:58:1389][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-23 21:24:59:1414][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-23 21:24:59:1428][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
+[2024-04-23 21:24:59:1529][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-23 21:24:59:1548][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-23 21:24:59:1970][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-23 21:24:59:1978][DEBUG][main][SQL.logStatement] - 
     drop table if exists comment cascade 
-[2024-04-20 18:01:52:1951][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:1980][DEBUG][main][SQL.logStatement] - 
     drop table if exists post cascade 
-[2024-04-20 18:01:52:1952][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:1980][DEBUG][main][SQL.logStatement] - 
     drop table if exists users cascade 
-[2024-04-20 18:01:52:1954][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:1984][DEBUG][main][SQL.logStatement] - 
     create table comment (
         id bigint generated by default as identity,
         post_id bigint,
@@ -287,7 +326,7 @@
         content varchar(255),
         primary key (id)
     )
-[2024-04-20 18:01:52:1958][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:1990][DEBUG][main][SQL.logStatement] - 
     create table post (
         id bigint generated by default as identity,
         user_id bigint,
@@ -296,7 +335,7 @@
         title varchar(255),
         primary key (id)
     )
-[2024-04-20 18:01:52:1958][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:1991][DEBUG][main][SQL.logStatement] - 
     create table users (
         id bigint generated by default as identity,
         name varchar(255),
@@ -304,303 +343,320 @@
         phone_number varchar(255),
         primary key (id)
     )
-[2024-04-20 18:01:52:1959][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:1992][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKs1slvnkuemjsq2kj4h3vhx7i1 
        foreign key (post_id) 
        references post
-[2024-04-20 18:01:52:1964][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:2000][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKqm52p1v3o13hy268he0wcngr5 
        foreign key (user_id) 
        references users
-[2024-04-20 18:01:52:1965][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:24:59:2002][DEBUG][main][SQL.logStatement] - 
     alter table if exists post 
        add constraint FK7ky67sgi7k0ayf22652f7763r 
        foreign key (user_id) 
        references users
-[2024-04-20 18:01:52:1967][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:01:52:2202][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[2024-04-20 18:01:52:2426][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
-[2024-04-20 18:01:52:2500][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
-	Unmapped fields: {}
-	Unmapped registrations: {}
+[2024-04-23 21:24:59:2004][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:24:59:2290][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-23 21:25:00:2529][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
+[2024-04-23 21:25:00:2608][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
+	Unmapped fields: {Query=[viewAllPost]}
+	Unmapped registrations: {Query.dsa=PostEndpoint#viewAllPost[0 args]}
 	Skipped types: []
-[2024-04-20 18:01:52:2508][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
-[2024-04-20 18:01:53:2750][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
-[2024-04-20 18:01:53:2791][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
-[2024-04-20 18:01:53:2799][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 2.738 seconds (process running for 3.004)
-[2024-04-20 18:01:53:3045][INFO ][RMI TCP Connection(5)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2024-04-20 18:01:53:3045][INFO ][RMI TCP Connection(5)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
-[2024-04-20 18:01:53:3046][INFO ][RMI TCP Connection(5)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 1 ms
-[2024-04-20 18:01:58:8228][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - request[document='mutation {
-  viewPost(postId: 1) {
-    ids
-    title
-    content
-  }
-}', id=7dc6b9bc-5787-54c9-058b-a62fa0f291c6, Locale=ko_KR]
-[2024-04-20 18:01:58:8228][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - document[mutation {
-  viewPost(postId: 1) {
-    ids
-    title
-    content
-  }
-}]
-[2024-04-20 18:01:58:8228][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - headers[[user-agent:"PostmanRuntime/7.36.0", accept:"*/*", cache-control:"no-cache", postman-token:"fc69c446-f4ff-4167-86db-dc52d0bfc52a", host:"localhost:8888", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"88", Content-Type:"application/json;charset=UTF-8"]]
-[2024-04-20 18:01:58:8250][WARN ][http-nio-8888-exec-2][GraphQL.parseAndValidate] - Query did not validate : 'mutation {
-  viewPost(postId: 1) {
-    ids
-    title
-    content
-  }
-}'
-[2024-04-20 18:02:53:62760][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - request[document='mutation {
-  viewPost(postId: 0) {
-    id
-    title
-    content
-  }
-}', id=b7363110-f215-7f2d-7beb-3dd7bcef304c, Locale=ko_KR]
-[2024-04-20 18:02:53:62763][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - document[mutation {
-  viewPost(postId: 0) {
-    id
-    title
-    content
-  }
-}]
-[2024-04-20 18:02:53:62763][DEBUG][http-nio-8888-exec-3][GraphQLInterceptor.intercept] - headers[[user-agent:"PostmanRuntime/7.36.0", accept:"*/*", cache-control:"no-cache", postman-token:"3168e854-dc5a-4c3d-96d6-4e9d4542dd21", host:"localhost:8888", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"87", Content-Type:"application/json;charset=UTF-8"]]
-[2024-04-20 18:02:53:62815][INFO ][http-nio-8888-exec-3][PostEndpoint.viewPost] - postId[0]
-[2024-04-20 18:02:53:62824][INFO ][http-nio-8888-exec-3][PostService.viewPost] - postId[0]
-[2024-04-20 18:02:53:62836][INFO ][http-nio-8888-exec-3][GraphQLExceptionResolver.resolveToSingleError] - exception[{}]
-io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 이하일 수 없습니다.
-	at io.dongvelop.springbootgraphql.service.PostService.viewPost(PostService.java:40)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at io.dongvelop.springbootgraphql.service.PostService$$SpringCGLIB$$0.viewPost(<generated>)
-	at io.dongvelop.springbootgraphql.endpoint.PostEndpoint.viewPost(PostEndpoint.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.graphql.data.method.InvocableHandlerMethodSupport.doInvoke(InvocableHandlerMethodSupport.java:87)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.validateAndInvoke(DataFetcherHandlerMethod.java:196)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:126)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:107)
-	at org.springframework.graphql.data.method.annotation.support.AnnotatedControllerConfigurer$SchemaMappingDataFetcher.get(AnnotatedControllerConfigurer.java:680)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.lambda$get$0(ContextDataFetcherDecorator.java:87)
-	at io.micrometer.context.ContextSnapshot.lambda$wrap$1(ContextSnapshot.java:106)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.get(ContextDataFetcherDecorator.java:87)
-	at org.springframework.graphql.observation.GraphQlObservationInstrumentation.lambda$instrumentDataFetcher$3(GraphQlObservationInstrumentation.java:145)
-	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:90)
-	at graphql.execution.ExecutionStrategy.invokeDataFetcher(ExecutionStrategy.java:329)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:305)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:243)
-	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:214)
-	at graphql.execution.ExecutionStrategy.resolveField(ExecutionStrategy.java:186)
-	at graphql.execution.AsyncSerialExecutionStrategy.lambda$execute$1(AsyncSerialExecutionStrategy.java:56)
-	at graphql.execution.Async.eachSequentiallyImpl(Async.java:162)
-	at graphql.execution.Async.eachSequentially(Async.java:151)
-	at graphql.execution.AsyncSerialExecutionStrategy.execute(AsyncSerialExecutionStrategy.java:51)
-	at graphql.execution.Execution.executeOperation(Execution.java:162)
-	at graphql.execution.Execution.execute(Execution.java:104)
-	at graphql.GraphQL.execute(GraphQL.java:568)
-	at graphql.GraphQL.lambda$parseValidateAndExecute$13(GraphQL.java:487)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:482)
-	at graphql.GraphQL.lambda$executeAsync$9(GraphQL.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.executeAsync(GraphQL.java:428)
-	at org.springframework.graphql.execution.DefaultExecutionGraphQlService.lambda$execute$2(DefaultExecutionGraphQlService.java:99)
-	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:47)
-	at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
-	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634)
-	at reactor.core.publisher.Mono.toFuture(Mono.java:5146)
-	at org.springframework.graphql.server.webmvc.GraphQlHttpHandler.handleRequest(GraphQlHttpHandler.java:113)
-	at org.springframework.web.servlet.function.support.HandlerFunctionAdapter.handle(HandlerFunctionAdapter.java:108)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[2024-04-20 18:02:53:62842][ERROR][http-nio-8888-exec-3][ExceptionResolversExceptionHandler.createInternalError] - Unresolved CustomException for executionId b7363110-f215-7f2d-7beb-3dd7bcef304c
-io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 이하일 수 없습니다.
-	at io.dongvelop.springbootgraphql.service.PostService.viewPost(PostService.java:40)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at io.dongvelop.springbootgraphql.service.PostService$$SpringCGLIB$$0.viewPost(<generated>)
-	at io.dongvelop.springbootgraphql.endpoint.PostEndpoint.viewPost(PostEndpoint.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.graphql.data.method.InvocableHandlerMethodSupport.doInvoke(InvocableHandlerMethodSupport.java:87)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.validateAndInvoke(DataFetcherHandlerMethod.java:196)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:126)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:107)
-	at org.springframework.graphql.data.method.annotation.support.AnnotatedControllerConfigurer$SchemaMappingDataFetcher.get(AnnotatedControllerConfigurer.java:680)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.lambda$get$0(ContextDataFetcherDecorator.java:87)
-	at io.micrometer.context.ContextSnapshot.lambda$wrap$1(ContextSnapshot.java:106)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.get(ContextDataFetcherDecorator.java:87)
-	at org.springframework.graphql.observation.GraphQlObservationInstrumentation.lambda$instrumentDataFetcher$3(GraphQlObservationInstrumentation.java:145)
-	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:90)
-	at graphql.execution.ExecutionStrategy.invokeDataFetcher(ExecutionStrategy.java:329)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:305)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:243)
-	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:214)
-	at graphql.execution.ExecutionStrategy.resolveField(ExecutionStrategy.java:186)
-	at graphql.execution.AsyncSerialExecutionStrategy.lambda$execute$1(AsyncSerialExecutionStrategy.java:56)
-	at graphql.execution.Async.eachSequentiallyImpl(Async.java:162)
-	at graphql.execution.Async.eachSequentially(Async.java:151)
-	at graphql.execution.AsyncSerialExecutionStrategy.execute(AsyncSerialExecutionStrategy.java:51)
-	at graphql.execution.Execution.executeOperation(Execution.java:162)
-	at graphql.execution.Execution.execute(Execution.java:104)
-	at graphql.GraphQL.execute(GraphQL.java:568)
-	at graphql.GraphQL.lambda$parseValidateAndExecute$13(GraphQL.java:487)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:482)
-	at graphql.GraphQL.lambda$executeAsync$9(GraphQL.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.executeAsync(GraphQL.java:428)
-	at org.springframework.graphql.execution.DefaultExecutionGraphQlService.lambda$execute$2(DefaultExecutionGraphQlService.java:99)
-	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:47)
-	at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
-	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634)
-	at reactor.core.publisher.Mono.toFuture(Mono.java:5146)
-	at org.springframework.graphql.server.webmvc.GraphQlHttpHandler.handleRequest(GraphQlHttpHandler.java:113)
-	at org.springframework.web.servlet.function.support.HandlerFunctionAdapter.handle(HandlerFunctionAdapter.java:108)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[2024-04-20 18:09:00:430621][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:09:00:430625][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
-[2024-04-20 18:09:00:430627][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
-[2024-04-20 18:09:02:231][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 23992 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
-[2024-04-20 18:09:02:233][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
-[2024-04-20 18:09:03:626][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2024-04-20 18:09:03:693][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
-[2024-04-20 18:09:03:1057][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
-[2024-04-20 18:09:03:1064][INFO ][main][StandardService.log] - Starting service [Tomcat]
-[2024-04-20 18:09:03:1064][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
-[2024-04-20 18:09:03:1087][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
-[2024-04-20 18:09:03:1087][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 833 ms
-[2024-04-20 18:09:03:1146][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
-[2024-04-20 18:09:03:1234][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-[2024-04-20 18:09:03:1234][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
-[2024-04-20 18:09:03:1239][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-[2024-04-20 18:09:03:1323][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[2024-04-20 18:09:03:1345][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
-[2024-04-20 18:09:03:1359][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
-[2024-04-20 18:09:03:1455][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[2024-04-20 18:09:03:1472][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[2024-04-20 18:09:04:2069][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[2024-04-20 18:09:04:2076][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:00:2617][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
+[2024-04-23 21:25:00:2880][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-04-23 21:25:00:2927][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
+[2024-04-23 21:25:00:2935][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 2.879 seconds (process running for 3.133)
+[2024-04-23 21:25:00:3064][INFO ][RMI TCP Connection(2)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-23 21:25:00:3064][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
+[2024-04-23 21:25:00:3065][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 1 ms
+[2024-04-23 21:25:04:7027][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - request[document='
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ', operationName='IntrospectionQuery', id=a67ed4d9-0de2-5075-b81a-115606e7d4c6, Locale=ko]
+[2024-04-23 21:25:04:7028][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - document[
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+[2024-04-23 21:25:04:7028][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - headers[[host:"localhost:8888", connection:"keep-alive", content-length:"2037", sec-ch-ua:""Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"", sec-ch-ua-platform:""macOS"", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36", accept:"*/*", origin:"http://localhost:8888", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8888/graphiql?path=/graphql", accept-encoding:"gzip, deflate, br, zstd", accept-language:"ko,en;q=0.9,ko-KR;q=0.8,en-US;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+[2024-04-23 21:25:15:18371][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:25:15:18375][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
+[2024-04-23 21:25:15:18376][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
+[2024-04-23 21:25:17:235][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 55885 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
+[2024-04-23 21:25:17:236][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
+[2024-04-23 21:25:17:299][WARN ][main][AnnotationConfigServletWebServerApplicationContext.refresh] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main/io/dongvelop/springbootgraphql/endpoint/PostEndpoint.class]
+[2024-04-23 21:25:17:391][ERROR][main][SpringApplication.reportFailure] - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main/io/dongvelop/springbootgraphql/endpoint/PostEndpoint.class]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:510)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:351)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:277)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at io.dongvelop.springbootgraphql.SpringbootGraphqlApplication.main(SpringbootGraphqlApplication.java:10)
+Caused by: org.springframework.core.annotation.AnnotationConfigurationException: Different @AliasFor mirror values for annotation [org.springframework.graphql.data.method.annotation.QueryMapping] declared on io.dongvelop.springbootgraphql.endpoint.PostEndpoint.viewAllPost(); attribute 'name' and its alias 'value' are declared with values of [dsa] and [123].
+	at org.springframework.core.annotation.AnnotationTypeMapping$MirrorSets$MirrorSet.resolve(AnnotationTypeMapping.java:782)
+	at org.springframework.core.annotation.AnnotationTypeMapping$MirrorSets.resolve(AnnotationTypeMapping.java:737)
+	at org.springframework.core.annotation.TypeMappedAnnotation.<init>(TypeMappedAnnotation.java:128)
+	at org.springframework.core.annotation.TypeMappedAnnotation.<init>(TypeMappedAnnotation.java:112)
+	at org.springframework.core.annotation.TypeMappedAnnotation.of(TypeMappedAnnotation.java:618)
+	at org.springframework.core.annotation.MergedAnnotation.of(MergedAnnotation.java:612)
+	at org.springframework.core.type.classreading.MergedAnnotationReadingVisitor.visitEnd(MergedAnnotationReadingVisitor.java:98)
+	at org.springframework.asm.ClassReader.readElementValues(ClassReader.java:3022)
+	at org.springframework.asm.ClassReader.readMethod(ClassReader.java:1415)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:746)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:426)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:122)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:470)
+	... 20 common frames omitted
+[2024-04-23 21:25:27:224][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 55902 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
+[2024-04-23 21:25:27:229][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
+[2024-04-23 21:25:27:644][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-23 21:25:27:712][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+[2024-04-23 21:25:27:1055][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
+[2024-04-23 21:25:27:1060][INFO ][main][StandardService.log] - Starting service [Tomcat]
+[2024-04-23 21:25:27:1060][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-23 21:25:27:1083][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
+[2024-04-23 21:25:27:1084][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 838 ms
+[2024-04-23 21:25:27:1141][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
+[2024-04-23 21:25:28:1226][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2024-04-23 21:25:28:1227][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
+[2024-04-23 21:25:28:1232][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2024-04-23 21:25:28:1334][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-23 21:25:28:1359][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-23 21:25:28:1374][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
+[2024-04-23 21:25:28:1469][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-23 21:25:28:1492][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-23 21:25:28:1951][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-23 21:25:28:1960][DEBUG][main][SQL.logStatement] - 
     drop table if exists comment cascade 
-[2024-04-20 18:09:04:2078][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1962][DEBUG][main][SQL.logStatement] - 
     drop table if exists post cascade 
-[2024-04-20 18:09:04:2079][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1963][DEBUG][main][SQL.logStatement] - 
     drop table if exists users cascade 
-[2024-04-20 18:09:04:2081][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1965][DEBUG][main][SQL.logStatement] - 
     create table comment (
         id bigint generated by default as identity,
         post_id bigint,
@@ -608,7 +664,7 @@ io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 
         content varchar(255),
         primary key (id)
     )
-[2024-04-20 18:09:04:2085][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1970][DEBUG][main][SQL.logStatement] - 
     create table post (
         id bigint generated by default as identity,
         user_id bigint,
@@ -617,7 +673,7 @@ io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 
         title varchar(255),
         primary key (id)
     )
-[2024-04-20 18:09:04:2086][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1971][DEBUG][main][SQL.logStatement] - 
     create table users (
         id bigint generated by default as identity,
         name varchar(255),
@@ -625,281 +681,277 @@ io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 
         phone_number varchar(255),
         primary key (id)
     )
-[2024-04-20 18:09:04:2087][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1972][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKs1slvnkuemjsq2kj4h3vhx7i1 
        foreign key (post_id) 
        references post
-[2024-04-20 18:09:04:2093][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1979][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKqm52p1v3o13hy268he0wcngr5 
        foreign key (user_id) 
        references users
-[2024-04-20 18:09:04:2094][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:28:1980][DEBUG][main][SQL.logStatement] - 
     alter table if exists post 
        add constraint FK7ky67sgi7k0ayf22652f7763r 
        foreign key (user_id) 
        references users
-[2024-04-20 18:09:04:2096][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:09:04:2346][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[2024-04-20 18:09:05:2582][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
-[2024-04-20 18:09:05:2652][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
-	Unmapped fields: {}
-	Unmapped registrations: {}
+[2024-04-23 21:25:28:1982][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:25:29:2232][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-23 21:25:29:2475][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
+[2024-04-23 21:25:29:2563][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
+	Unmapped fields: {Query=[viewAllPost]}
+	Unmapped registrations: {Query.123=PostEndpoint#viewAllPost[0 args]}
 	Skipped types: []
-[2024-04-20 18:09:05:2661][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
-[2024-04-20 18:09:05:2905][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
-[2024-04-20 18:09:05:2955][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
-[2024-04-20 18:09:05:2966][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 2.908 seconds (process running for 3.347)
-[2024-04-20 18:09:05:3395][INFO ][RMI TCP Connection(2)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2024-04-20 18:09:05:3395][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
-[2024-04-20 18:09:05:3396][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 1 ms
-[2024-04-20 18:09:08:5801][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - request[document='mutation {
-  viewPost(postId: 0) {
-    id
-    title
-    content
-  }
-}', id=e3f77272-d82c-368c-ee14-0e26db58a2d3, Locale=ko_KR]
-[2024-04-20 18:09:08:5801][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - document[mutation {
-  viewPost(postId: 0) {
-    id
-    title
-    content
-  }
-}]
-[2024-04-20 18:09:08:5801][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - headers[[user-agent:"PostmanRuntime/7.36.0", accept:"*/*", cache-control:"no-cache", postman-token:"c80b6964-2d63-4afb-9abe-a2462cfee7f5", host:"localhost:8888", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"87", Content-Type:"application/json;charset=UTF-8"]]
-[2024-04-20 18:09:08:5831][INFO ][http-nio-8888-exec-2][PostEndpoint.viewPost] - postId[0]
-[2024-04-20 18:09:08:5834][INFO ][http-nio-8888-exec-2][PostService.viewPost] - postId[0]
-[2024-04-20 18:09:08:5842][INFO ][http-nio-8888-exec-2][GraphQLExceptionResolver.resolveToSingleError] - exception[{}]
-io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 이하일 수 없습니다.
-	at io.dongvelop.springbootgraphql.service.PostService.viewPost(PostService.java:40)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at io.dongvelop.springbootgraphql.service.PostService$$SpringCGLIB$$0.viewPost(<generated>)
-	at io.dongvelop.springbootgraphql.endpoint.PostEndpoint.viewPost(PostEndpoint.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.graphql.data.method.InvocableHandlerMethodSupport.doInvoke(InvocableHandlerMethodSupport.java:87)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.validateAndInvoke(DataFetcherHandlerMethod.java:196)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:126)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:107)
-	at org.springframework.graphql.data.method.annotation.support.AnnotatedControllerConfigurer$SchemaMappingDataFetcher.get(AnnotatedControllerConfigurer.java:680)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.lambda$get$0(ContextDataFetcherDecorator.java:87)
-	at io.micrometer.context.ContextSnapshot.lambda$wrap$1(ContextSnapshot.java:106)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.get(ContextDataFetcherDecorator.java:87)
-	at org.springframework.graphql.observation.GraphQlObservationInstrumentation.lambda$instrumentDataFetcher$3(GraphQlObservationInstrumentation.java:145)
-	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:90)
-	at graphql.execution.ExecutionStrategy.invokeDataFetcher(ExecutionStrategy.java:329)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:305)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:243)
-	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:214)
-	at graphql.execution.ExecutionStrategy.resolveField(ExecutionStrategy.java:186)
-	at graphql.execution.AsyncSerialExecutionStrategy.lambda$execute$1(AsyncSerialExecutionStrategy.java:56)
-	at graphql.execution.Async.eachSequentiallyImpl(Async.java:162)
-	at graphql.execution.Async.eachSequentially(Async.java:151)
-	at graphql.execution.AsyncSerialExecutionStrategy.execute(AsyncSerialExecutionStrategy.java:51)
-	at graphql.execution.Execution.executeOperation(Execution.java:162)
-	at graphql.execution.Execution.execute(Execution.java:104)
-	at graphql.GraphQL.execute(GraphQL.java:568)
-	at graphql.GraphQL.lambda$parseValidateAndExecute$13(GraphQL.java:487)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:482)
-	at graphql.GraphQL.lambda$executeAsync$9(GraphQL.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.executeAsync(GraphQL.java:428)
-	at org.springframework.graphql.execution.DefaultExecutionGraphQlService.lambda$execute$2(DefaultExecutionGraphQlService.java:99)
-	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:47)
-	at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
-	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634)
-	at reactor.core.publisher.Mono.toFuture(Mono.java:5146)
-	at org.springframework.graphql.server.webmvc.GraphQlHttpHandler.handleRequest(GraphQlHttpHandler.java:113)
-	at org.springframework.web.servlet.function.support.HandlerFunctionAdapter.handle(HandlerFunctionAdapter.java:108)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[2024-04-20 18:09:08:5845][ERROR][http-nio-8888-exec-2][ExceptionResolversExceptionHandler.createInternalError] - Unresolved CustomException for executionId e3f77272-d82c-368c-ee14-0e26db58a2d3
-io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 이하일 수 없습니다.
-	at io.dongvelop.springbootgraphql.service.PostService.viewPost(PostService.java:40)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at io.dongvelop.springbootgraphql.service.PostService$$SpringCGLIB$$0.viewPost(<generated>)
-	at io.dongvelop.springbootgraphql.endpoint.PostEndpoint.viewPost(PostEndpoint.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.graphql.data.method.InvocableHandlerMethodSupport.doInvoke(InvocableHandlerMethodSupport.java:87)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.validateAndInvoke(DataFetcherHandlerMethod.java:196)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:126)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:107)
-	at org.springframework.graphql.data.method.annotation.support.AnnotatedControllerConfigurer$SchemaMappingDataFetcher.get(AnnotatedControllerConfigurer.java:680)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.lambda$get$0(ContextDataFetcherDecorator.java:87)
-	at io.micrometer.context.ContextSnapshot.lambda$wrap$1(ContextSnapshot.java:106)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.get(ContextDataFetcherDecorator.java:87)
-	at org.springframework.graphql.observation.GraphQlObservationInstrumentation.lambda$instrumentDataFetcher$3(GraphQlObservationInstrumentation.java:145)
-	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:90)
-	at graphql.execution.ExecutionStrategy.invokeDataFetcher(ExecutionStrategy.java:329)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:305)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:243)
-	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:214)
-	at graphql.execution.ExecutionStrategy.resolveField(ExecutionStrategy.java:186)
-	at graphql.execution.AsyncSerialExecutionStrategy.lambda$execute$1(AsyncSerialExecutionStrategy.java:56)
-	at graphql.execution.Async.eachSequentiallyImpl(Async.java:162)
-	at graphql.execution.Async.eachSequentially(Async.java:151)
-	at graphql.execution.AsyncSerialExecutionStrategy.execute(AsyncSerialExecutionStrategy.java:51)
-	at graphql.execution.Execution.executeOperation(Execution.java:162)
-	at graphql.execution.Execution.execute(Execution.java:104)
-	at graphql.GraphQL.execute(GraphQL.java:568)
-	at graphql.GraphQL.lambda$parseValidateAndExecute$13(GraphQL.java:487)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:482)
-	at graphql.GraphQL.lambda$executeAsync$9(GraphQL.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.executeAsync(GraphQL.java:428)
-	at org.springframework.graphql.execution.DefaultExecutionGraphQlService.lambda$execute$2(DefaultExecutionGraphQlService.java:99)
-	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:47)
-	at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
-	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634)
-	at reactor.core.publisher.Mono.toFuture(Mono.java:5146)
-	at org.springframework.graphql.server.webmvc.GraphQlHttpHandler.handleRequest(GraphQlHttpHandler.java:113)
-	at org.springframework.web.servlet.function.support.HandlerFunctionAdapter.handle(HandlerFunctionAdapter.java:108)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[2024-04-20 18:12:48:225599][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:12:48:225603][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
-[2024-04-20 18:12:48:225606][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
-[2024-04-20 18:12:49:266][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 24262 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
-[2024-04-20 18:12:49:272][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
-[2024-04-20 18:12:50:920][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2024-04-20 18:12:50:987][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
-[2024-04-20 18:12:50:1363][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
-[2024-04-20 18:12:50:1369][INFO ][main][StandardService.log] - Starting service [Tomcat]
-[2024-04-20 18:12:50:1370][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
-[2024-04-20 18:12:51:1394][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
-[2024-04-20 18:12:51:1395][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 1099 ms
-[2024-04-20 18:12:51:1456][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
-[2024-04-20 18:12:51:1545][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-[2024-04-20 18:12:51:1546][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
-[2024-04-20 18:12:51:1550][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-[2024-04-20 18:12:51:1630][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[2024-04-20 18:12:51:1656][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
-[2024-04-20 18:12:51:1669][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
-[2024-04-20 18:12:51:1763][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[2024-04-20 18:12:51:1781][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[2024-04-20 18:12:51:2186][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[2024-04-20 18:12:51:2192][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:25:29:2572][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
+[2024-04-23 21:25:29:2847][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-04-23 21:25:29:2909][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
+[2024-04-23 21:25:29:2919][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 2.865 seconds (process running for 3.124)
+[2024-04-23 21:25:29:3041][INFO ][RMI TCP Connection(3)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-23 21:25:29:3041][INFO ][RMI TCP Connection(3)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
+[2024-04-23 21:25:29:3042][INFO ][RMI TCP Connection(3)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 1 ms
+[2024-04-23 21:25:34:7508][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - request[document='
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ', operationName='IntrospectionQuery', id=529bc21b-92ea-678f-c17e-0b7f7fe182ba, Locale=ko]
+[2024-04-23 21:25:34:7509][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - document[
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+[2024-04-23 21:25:34:7509][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - headers[[host:"localhost:8888", connection:"keep-alive", content-length:"2037", sec-ch-ua:""Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"", sec-ch-ua-platform:""macOS"", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36", accept:"*/*", origin:"http://localhost:8888", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8888/graphiql?path=/graphql", accept-encoding:"gzip, deflate, br, zstd", accept-language:"ko,en;q=0.9,ko-KR;q=0.8,en-US;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+[2024-04-23 21:26:30:63841][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:26:30:63845][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
+[2024-04-23 21:26:30:63846][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
+[2024-04-23 21:26:32:219][INFO ][main][SpringbootGraphqlApplication.logStarting] - Starting SpringbootGraphqlApplication using Java 21.0.1 with PID 55986 (/Users/2dongyeop/Developments/springboot-graphql/build/classes/java/main started by 2dongyeop in /Users/2dongyeop/Developments/springboot-graphql)
+[2024-04-23 21:26:32:220][INFO ][main][SpringbootGraphqlApplication.logStartupProfileInfo] - No active profile set, falling back to 1 default profile: "default"
+[2024-04-23 21:26:32:640][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-23 21:26:32:706][INFO ][main][RepositoryConfigurationDelegate.registerRepositoriesIn] - Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+[2024-04-23 21:26:33:1060][INFO ][main][TomcatWebServer.initialize] - Tomcat initialized with port 8888 (http)
+[2024-04-23 21:26:33:1066][INFO ][main][StandardService.log] - Starting service [Tomcat]
+[2024-04-23 21:26:33:1066][INFO ][main][StandardEngine.log] - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-23 21:26:33:1090][INFO ][main][[/].log] - Initializing Spring embedded WebApplicationContext
+[2024-04-23 21:26:33:1090][INFO ][main][ServletWebServerApplicationContext.prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 851 ms
+[2024-04-23 21:26:33:1152][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Starting...
+[2024-04-23 21:26:33:1244][INFO ][main][HikariPool.checkFailFast] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2024-04-23 21:26:33:1244][INFO ][main][HikariDataSource.getConnection] - HikariPool-1 - Start completed.
+[2024-04-23 21:26:33:1249][INFO ][main][H2ConsoleAutoConfiguration.logDataSources] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2024-04-23 21:26:33:1337][INFO ][main][LogHelper.logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-23 21:26:33:1360][INFO ][main][Version.logVersion] - HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-23 21:26:33:1375][INFO ][main][RegionFactoryInitiator.initiateService] - HHH000026: Second-level cache disabled
+[2024-04-23 21:26:33:1475][INFO ][main][SpringPersistenceUnitInfo.addTransformer] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-23 21:26:33:1495][WARN ][main][deprecation.constructDialect] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-23 21:26:34:1910][INFO ][main][JtaPlatformInitiator.initiateService] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-23 21:26:34:1916][DEBUG][main][SQL.logStatement] - 
     drop table if exists comment cascade 
-[2024-04-20 18:12:51:2194][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1918][DEBUG][main][SQL.logStatement] - 
     drop table if exists post cascade 
-[2024-04-20 18:12:51:2194][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1918][DEBUG][main][SQL.logStatement] - 
     drop table if exists users cascade 
-[2024-04-20 18:12:51:2196][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1921][DEBUG][main][SQL.logStatement] - 
     create table comment (
         id bigint generated by default as identity,
         post_id bigint,
@@ -907,7 +959,7 @@ io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 
         content varchar(255),
         primary key (id)
     )
-[2024-04-20 18:12:51:2199][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1924][DEBUG][main][SQL.logStatement] - 
     create table post (
         id bigint generated by default as identity,
         user_id bigint,
@@ -916,7 +968,7 @@ io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 
         title varchar(255),
         primary key (id)
     )
-[2024-04-20 18:12:51:2200][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1925][DEBUG][main][SQL.logStatement] - 
     create table users (
         id bigint generated by default as identity,
         name varchar(255),
@@ -924,253 +976,248 @@ io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 
         phone_number varchar(255),
         primary key (id)
     )
-[2024-04-20 18:12:51:2201][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1925][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKs1slvnkuemjsq2kj4h3vhx7i1 
        foreign key (post_id) 
        references post
-[2024-04-20 18:12:51:2206][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1931][DEBUG][main][SQL.logStatement] - 
     alter table if exists comment 
        add constraint FKqm52p1v3o13hy268he0wcngr5 
        foreign key (user_id) 
        references users
-[2024-04-20 18:12:51:2207][DEBUG][main][SQL.logStatement] - 
+[2024-04-23 21:26:34:1932][DEBUG][main][SQL.logStatement] - 
     alter table if exists post 
        add constraint FK7ky67sgi7k0ayf22652f7763r 
        foreign key (user_id) 
        references users
-[2024-04-20 18:12:51:2208][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:12:52:2448][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[2024-04-20 18:12:52:2706][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
-[2024-04-20 18:12:52:2775][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
+[2024-04-23 21:26:34:1933][INFO ][main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:26:34:2163][WARN ][main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-23 21:26:34:2419][INFO ][main][DefaultSchemaResourceGraphQlSourceBuilder.initGraphQlSchema] - Loaded 1 resource(s) in the GraphQL schema.
+[2024-04-23 21:26:34:2491][INFO ][main][GraphQlAutoConfiguration.lambda$initGraphQlSchema$1] - GraphQL schema inspection:
 	Unmapped fields: {}
-	Unmapped registrations: {}
+	Unmapped registrations: {Query.getCommentsByPostId=CommentEndpoint#getCommentsByPostId[1 args]}
 	Skipped types: []
-[2024-04-20 18:12:52:2783][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
-[2024-04-20 18:12:52:3030][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
-[2024-04-20 18:12:52:3070][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
-[2024-04-20 18:12:52:3078][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 3.019 seconds (process running for 3.441)
-[2024-04-20 18:12:53:3424][INFO ][RMI TCP Connection(1)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2024-04-20 18:12:53:3424][INFO ][RMI TCP Connection(1)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
-[2024-04-20 18:12:53:3425][INFO ][RMI TCP Connection(1)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 0 ms
-[2024-04-20 18:12:57:7582][DEBUG][http-nio-8888-exec-1][GraphQLInterceptor.intercept] - request[document='mutation {
-  viewPost(postId: 0) {
-    id
-    title
-    content
-  }
-}', id=2dd01d3b-cef2-a05c-4a8e-9ccfae5980de, Locale=ko_KR]
-[2024-04-20 18:12:57:7583][DEBUG][http-nio-8888-exec-1][GraphQLInterceptor.intercept] - document[mutation {
-  viewPost(postId: 0) {
-    id
-    title
-    content
-  }
-}]
-[2024-04-20 18:12:57:7583][DEBUG][http-nio-8888-exec-1][GraphQLInterceptor.intercept] - headers[[user-agent:"PostmanRuntime/7.36.0", accept:"*/*", cache-control:"no-cache", postman-token:"9ef68e17-a545-48b6-abe2-83a71df3229a", host:"localhost:8888", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"87", Content-Type:"application/json;charset=UTF-8"]]
-[2024-04-20 18:12:57:7617][INFO ][http-nio-8888-exec-1][PostEndpoint.viewPost] - postId[0]
-[2024-04-20 18:12:57:7621][INFO ][http-nio-8888-exec-1][PostService.viewPost] - postId[0]
-[2024-04-20 18:12:57:7630][INFO ][http-nio-8888-exec-1][GraphQLExceptionResolver.resolveToSingleError] - exception[{}]
-io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 이하일 수 없습니다.
-	at io.dongvelop.springbootgraphql.service.PostService.viewPost(PostService.java:40)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at io.dongvelop.springbootgraphql.service.PostService$$SpringCGLIB$$0.viewPost(<generated>)
-	at io.dongvelop.springbootgraphql.endpoint.PostEndpoint.viewPost(PostEndpoint.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.graphql.data.method.InvocableHandlerMethodSupport.doInvoke(InvocableHandlerMethodSupport.java:87)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.validateAndInvoke(DataFetcherHandlerMethod.java:196)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:126)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:107)
-	at org.springframework.graphql.data.method.annotation.support.AnnotatedControllerConfigurer$SchemaMappingDataFetcher.get(AnnotatedControllerConfigurer.java:680)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.lambda$get$0(ContextDataFetcherDecorator.java:87)
-	at io.micrometer.context.ContextSnapshot.lambda$wrap$1(ContextSnapshot.java:106)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.get(ContextDataFetcherDecorator.java:87)
-	at org.springframework.graphql.observation.GraphQlObservationInstrumentation.lambda$instrumentDataFetcher$3(GraphQlObservationInstrumentation.java:145)
-	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:90)
-	at graphql.execution.ExecutionStrategy.invokeDataFetcher(ExecutionStrategy.java:329)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:305)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:243)
-	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:214)
-	at graphql.execution.ExecutionStrategy.resolveField(ExecutionStrategy.java:186)
-	at graphql.execution.AsyncSerialExecutionStrategy.lambda$execute$1(AsyncSerialExecutionStrategy.java:56)
-	at graphql.execution.Async.eachSequentiallyImpl(Async.java:162)
-	at graphql.execution.Async.eachSequentially(Async.java:151)
-	at graphql.execution.AsyncSerialExecutionStrategy.execute(AsyncSerialExecutionStrategy.java:51)
-	at graphql.execution.Execution.executeOperation(Execution.java:162)
-	at graphql.execution.Execution.execute(Execution.java:104)
-	at graphql.GraphQL.execute(GraphQL.java:568)
-	at graphql.GraphQL.lambda$parseValidateAndExecute$13(GraphQL.java:487)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:482)
-	at graphql.GraphQL.lambda$executeAsync$9(GraphQL.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.executeAsync(GraphQL.java:428)
-	at org.springframework.graphql.execution.DefaultExecutionGraphQlService.lambda$execute$2(DefaultExecutionGraphQlService.java:99)
-	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:47)
-	at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
-	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634)
-	at reactor.core.publisher.Mono.toFuture(Mono.java:5146)
-	at org.springframework.graphql.server.webmvc.GraphQlHttpHandler.handleRequest(GraphQlHttpHandler.java:113)
-	at org.springframework.web.servlet.function.support.HandlerFunctionAdapter.handle(HandlerFunctionAdapter.java:108)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[2024-04-20 18:12:57:7633][INFO ][http-nio-8888-exec-1][GraphQLExceptionResolver.resolveToSingleError] - ex.getClass() ::::: 
-[2024-04-20 18:12:57:7634][ERROR][http-nio-8888-exec-1][ExceptionResolversExceptionHandler.createInternalError] - Unresolved CustomException for executionId 2dd01d3b-cef2-a05c-4a8e-9ccfae5980de
-io.dongvelop.springbootgraphql.exception.CustomException: 게시글 번호는 0 이하일 수 없습니다.
-	at io.dongvelop.springbootgraphql.service.PostService.viewPost(PostService.java:40)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at io.dongvelop.springbootgraphql.service.PostService$$SpringCGLIB$$0.viewPost(<generated>)
-	at io.dongvelop.springbootgraphql.endpoint.PostEndpoint.viewPost(PostEndpoint.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.graphql.data.method.InvocableHandlerMethodSupport.doInvoke(InvocableHandlerMethodSupport.java:87)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.validateAndInvoke(DataFetcherHandlerMethod.java:196)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:126)
-	at org.springframework.graphql.data.method.annotation.support.DataFetcherHandlerMethod.invoke(DataFetcherHandlerMethod.java:107)
-	at org.springframework.graphql.data.method.annotation.support.AnnotatedControllerConfigurer$SchemaMappingDataFetcher.get(AnnotatedControllerConfigurer.java:680)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.lambda$get$0(ContextDataFetcherDecorator.java:87)
-	at io.micrometer.context.ContextSnapshot.lambda$wrap$1(ContextSnapshot.java:106)
-	at org.springframework.graphql.execution.ContextDataFetcherDecorator.get(ContextDataFetcherDecorator.java:87)
-	at org.springframework.graphql.observation.GraphQlObservationInstrumentation.lambda$instrumentDataFetcher$3(GraphQlObservationInstrumentation.java:145)
-	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:90)
-	at graphql.execution.ExecutionStrategy.invokeDataFetcher(ExecutionStrategy.java:329)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:305)
-	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:243)
-	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:214)
-	at graphql.execution.ExecutionStrategy.resolveField(ExecutionStrategy.java:186)
-	at graphql.execution.AsyncSerialExecutionStrategy.lambda$execute$1(AsyncSerialExecutionStrategy.java:56)
-	at graphql.execution.Async.eachSequentiallyImpl(Async.java:162)
-	at graphql.execution.Async.eachSequentially(Async.java:151)
-	at graphql.execution.AsyncSerialExecutionStrategy.execute(AsyncSerialExecutionStrategy.java:51)
-	at graphql.execution.Execution.executeOperation(Execution.java:162)
-	at graphql.execution.Execution.execute(Execution.java:104)
-	at graphql.GraphQL.execute(GraphQL.java:568)
-	at graphql.GraphQL.lambda$parseValidateAndExecute$13(GraphQL.java:487)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:482)
-	at graphql.GraphQL.lambda$executeAsync$9(GraphQL.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at graphql.GraphQL.executeAsync(GraphQL.java:428)
-	at org.springframework.graphql.execution.DefaultExecutionGraphQlService.lambda$execute$2(DefaultExecutionGraphQlService.java:99)
-	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:47)
-	at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
-	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634)
-	at reactor.core.publisher.Mono.toFuture(Mono.java:5146)
-	at org.springframework.graphql.server.webmvc.GraphQlHttpHandler.handleRequest(GraphQlHttpHandler.java:113)
-	at org.springframework.web.servlet.function.support.HandlerFunctionAdapter.handle(HandlerFunctionAdapter.java:108)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[2024-04-20 18:13:49:60296][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[2024-04-20 18:13:49:60301][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
-[2024-04-20 18:13:49:60305][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
+[2024-04-23 21:26:34:2499][INFO ][main][GraphQlWebMvcAutoConfiguration.graphQlRouterFunction] - GraphQL endpoint HTTP POST /graphql
+[2024-04-23 21:26:34:2739][INFO ][main][EndpointLinksResolver.<init>] - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-04-23 21:26:34:2779][INFO ][main][TomcatWebServer.start] - Tomcat started on port 8888 (http) with context path ''
+[2024-04-23 21:26:35:2787][INFO ][main][SpringbootGraphqlApplication.logStarted] - Started SpringbootGraphqlApplication in 2.73 seconds (process running for 3.124)
+[2024-04-23 21:26:35:2895][INFO ][RMI TCP Connection(2)-127.0.0.1][[/].log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-23 21:26:35:2895][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Initializing Servlet 'dispatcherServlet'
+[2024-04-23 21:26:35:2896][INFO ][RMI TCP Connection(2)-127.0.0.1][DispatcherServlet.initServletBean] - Completed initialization in 1 ms
+[2024-04-23 21:26:37:5354][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - request[document='
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ', operationName='IntrospectionQuery', id=04e0996f-fb63-b696-a746-18a430e60e9f, Locale=ko]
+[2024-04-23 21:26:37:5354][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - document[
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                    ofType {
+                      kind
+                      name
+                      ofType {
+                        kind
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+[2024-04-23 21:26:37:5354][DEBUG][http-nio-8888-exec-2][GraphQLInterceptor.intercept] - headers[[host:"localhost:8888", connection:"keep-alive", content-length:"2037", sec-ch-ua:""Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"", sec-ch-ua-platform:""macOS"", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36", accept:"*/*", origin:"http://localhost:8888", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8888/graphiql?path=/graphql", accept-encoding:"gzip, deflate, br, zstd", accept-language:"ko,en;q=0.9,ko-KR;q=0.8,en-US;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+[2024-04-23 21:27:38:65873][INFO ][SpringApplicationShutdownHook][LocalContainerEntityManagerFactoryBean.destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-23 21:27:38:65877][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown initiated...
+[2024-04-23 21:27:38:65879][INFO ][SpringApplicationShutdownHook][HikariDataSource.close] - HikariPool-1 - Shutdown completed.
