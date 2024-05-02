@@ -6,6 +6,15 @@ GraphQL이 처음이신 분들이라면, 전체를 읽어보시길 추천드립�
 
 **REST API의 단점을 극복하고자 나온 만큼, 내용을 학습해보고 저의 개인적인 견해(챕터 8)와 비교해보시면 좋을 것 같습니다.**
 
+<br/>
+
+자세한 이론은 아래 블로그 링크에서 확인하실 수 있습니다.
+- [[Spring Boot] GraphQL 소개](https://velog.io/@dongvelop/Spring-Boot-GraphQL-%EC%86%8C%EA%B0%9C)
+
+
+<br/>
+
+
 ## 목차
 
 * [1. GraphQL 소개](#1-graphql-소개)
